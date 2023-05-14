@@ -1,0 +1,479 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+@font-face {
+    font-family: gilroy-bold;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Bold'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-heavy;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Heavy'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-light;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Light'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilroy-Medium'), url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy-medium;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 116px;
+    background-color: #FAFAFA;
+}
+
+.header__logo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    color: #231F20;
+    margin-left: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 31px;
+    /*делает отступ между флекс-элементами(колонками элементов)*/
+    list-style: none;
+    font-family: Gilroy;
+}
+
+.menu>.menu__item>a {
+    text-decoration: none;
+    color: #231F20;
+}
+
+.header__button {
+    margin-right: 34px;
+    border: 1px solid #F7941E;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #F7941E;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/*main*/
+.content {
+    width: 100%;
+}
+
+.main_text1 {
+    display: flex;
+
+}
+
+.block1 {
+    width: 50%;
+    background-color: #F1F1F2;
+    padding-left: 167px;
+}
+
+.box-img {
+    width: 50%;
+    height: 700px;
+}
+
+.box-img>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box-text1 {
+    margin-top: 154px;
+    font-size: 56px;
+    font-family: gilroy-bold;
+    margin-bottom: 36px;
+}
+
+.box-text2 {
+    height: 57px;
+    font-family: Gilroy;
+    font-size: 20px;
+    margin-bottom: 52px;
+}
+
+.main__button {
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 40px;
+    background-color: #F7941E;
+    text-transform: uppercase;
+}
+
+.box-text1_2 {
+    margin-top: 154px;
+    font-size: 32px;
+    font-family: Gilroy;
+    margin-bottom: 36px;
+    font-family: gilroy-bold;
+}
+
+.main__button_1 {
+    width: 200px;
+    height: 60px;
+    color: #F7941E;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 40px;
+    border: 1px solid #F7941E;
+    text-transform: uppercase;
+}
+
+.box-text2_2 {
+    height: 167px;
+    font-family: Gilroy;
+    font-size: 20px;
+    margin-bottom: 52px;
+}
+
+.block3 {
+    background-color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+}
+
+.block3__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    margin: 90px 0px 64px 0px;
+}
+
+.block3__title>.title {
+    font-family: 'Gilroy';
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.block3__title>.text {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+}
+
+.card1:hover {
+    box-shadow: -10px -5px 40px rgb(105, 105, 105);
+}
+
+.card1-info {
+    padding: 24px 0px 24px 24px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.info-text {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.more {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.block4 {
+    width: 100%;
+    height: 240px;
+    background-color: #F7941E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.text_block_4 {
+    font-family: gilroy-medium;
+    font-size: 32px;
+}
+.text_block_4-0{
+    font-family: gilroy-medium;
+    font-size: 24px;
+    align-items: center;
+    
+
+}
+
+.button_rod {
+    display: flex;
+    justify-content: end;
+    column-gap: 16px;
+
+}
+
+.main__button_2 {
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 40px;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.main__button_3 {
+    width: 200px;
+    height: 60px;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 40px;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+}
+
+.blog-card {
+    background-color: #231F20;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 135px;
+}
+
+.blog-info {
+    padding-left: 80px;
+}
+
+.block5 .title_block5,
+.block5 .title_block5_2 {
+    text-align: center;
+}
+
+.title_block5 {
+    margin-top: 90px;
+    margin-bottom: 23px;
+    font-size: 32px;
+}
+
+.title_block5_2 {
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.avtor {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 63px;
+    margin-bottom: 27px;
+}
+
+.midlle-text {
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: gilroy-light;
+    margin-bottom: 60px;
+}
+
+.read-more4 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.rod_last_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px 40px;
+    margin: 40px auto;
+}
+
+.last-main {
+    font-size: 24px;
+    font-family: gilroy-bold;
+    margin-bottom: 16px;
+    padding: 0px 48px;
+}
+
+.last-text {
+    padding: 0px 48px;
+}
+
+.last-more {
+    padding: 0px 48px;
+    margin-top: 16px;
+}
+
+.last-card1:hover {
+    box-shadow: -5px -5px 20px rgb(161, 160, 160);
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    padding: 115px 0px 35px
+}
+
+.footer nav {
+    margin: auto;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.footer-nav li {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0, 25px;
+}
+
+.footer__logo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 18px;
+    color: #231F20;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    padding: 0px 115px;
+}
+
+.menu__item1 {
+    padding: 0px 115px;
+}
+
+.menu__item2 {
+    padding: 0px 115px;
+}
+
+.line {
+    height: 1px;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 55px auto;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main_text1 {
+        flex-direction: column;
+    }
+
+    .block1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px;
+    }
+
+    .box-img {
+        width: 100%;
+    }
+
+    .img2 {
+        order: 1;
+    }
+    .block4{
+        justify-content: center;
+    }
+    .blog-card{
+        background-color: none;
+    }
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header{
+        display: none;
+    }
+
+    .block1{
+        padding: 10px;
+    }
+    .button_rod{
+        display: block;
+    }
+    .main__button_2{
+        margin-bottom: 10px;
+    }
+    .blog-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
